@@ -1,0 +1,607 @@
+
+/* Generales */
+* {
+	margin: 0;
+	padding: 0;
+}
+h1, p {
+	margin: 0;
+	font-size: 3rem;
+	color: black;
+	font-family: 'Lato', sans-serif;
+}
+h2 {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 4rem;
+	font-weight: 100;
+	margin: 5px 10px 5px 10px;
+}
+h3{ font-family: 'Lato', sans-serif;
+	color: black;
+	text-align: left;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+h4 {
+	font-family: 'robotoligth';
+	color: #777777;
+	font-size: 0.5rem;
+}
+
+p {
+	font-size: 0.8rem;
+	color: gray;
+}
+.aligncenter { 
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+/* Generales */
+
+body{
+
+
+}
+header {
+	margin: 20px 0px 20px 0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: center;
+}
+
+#logo {
+	width: 20%;
+	font-family: 'Arial';
+	text-align: center;
+	padding-right: 50px;
+}
+
+#search {
+	width: 20%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: center;	
+}
+#sign{
+	width: 20%;
+	text-align: right;
+	font-family: 'Arial';
+	font-size: 0.8rem;
+	margin-top: 10px;
+}
+
+#sign:hover {
+	color: #dd5b51;
+}
+.action {
+	width: 100px;
+	font-size: 0.7rem;
+	font-family: 'Arial';
+	border-left:  1px solid black;
+	padding: 5px 8px 5px 8px;
+}
+
+nav {
+	background-color: black;
+	height: 50px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+ul{
+	width: 800px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+	margin:auto;	
+}
+	
+li{
+	height: auto;
+	width: 150px;
+	padding: 15px;	
+	list-style: none;	
+}
+li a {
+	font-family: 'Arial';
+	text-decoration:none;
+	color: white;	
+}
+li:hover {
+	background-color: #dd5b51;
+}
+article {	
+	background-image: url('../img/imagen_01.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+.carrusel{
+	height: 485px;		
+}
+.carrusel h2 {
+	font-family: 'Lato Hairline', sans-serif;
+
+}
+.bolsa img {
+	padding-left: 30px;
+}
+.sale{
+	background-color:#E74743;
+	opacity: 0.85;
+	width: 500px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+
+}
+.sale h1{
+	font-size: 6rem;
+	color: white;
+	text-align: center;
+	font-family: lato;
+	font-weight: 100;
+
+}
+.sale p {
+	font-family: 'Arial';
+	color: white;
+	padding: 0px 20px 0px 20px;
+	text-align: center;
+
+}
+.boton{
+	width: 150px;
+	height: auto;
+	padding: 5px;
+	margin: 10px 0px 25px 0px;
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-family: 'Lato';
+}
+.categorias {
+	background-image: url('../img/imagen_02.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+.box {
+	width: 55%;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: center;
+}
+
+.categoria {
+	width: 30%;
+	height:200px;
+	background-color: white;	
+}
+.categoria span {
+	color: white;
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 0.7rem;
+
+}
+.categoria p{
+	text-transform: uppercase;
+	font-family: 'Lato';
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+
+}
+.categoria p:hover{
+	text-transform: uppercase;
+	font-family: 'Lato';
+	color: #F73636;
+	font-size: 2rem;
+	text-align: center;
+
+}
+.categoria h5 {
+	font-family: 'Lato Hairline';
+	font-size: 1.5rem;
+	text-align: center;
+	color: white;
+}
+.categoria h5:hover {
+	color: #F73636;
+
+}
+.categoria1 {
+	width: 30%;
+	height:200px;
+	background-color: #F73636;	
+	opacity: 0.9;	
+}
+.categoria1 h3{
+	text-align: center;
+	font-family: 'Lato';
+	color: white;
+	font-size: 2rem;
+
+}
+.categoria1 h3 p {
+	text-align: center;
+	font-family: 'Lato Hairline';
+	color: white;
+	font-size: 2rem;
+}
+.categoria2 {
+	width: 30%;
+	height:200px;
+	background-color: white;
+	opacity: 0.9;
+	text-align: center !important;	
+}
+.categoria2 h3{
+	text-align: center;
+	font-family: 'Lato';
+	color: black;
+	font-size: 2rem;
+}
+.categoria2 h3 p {
+	text-align: center;
+	font-family: 'Lato Hairline';
+	color: black;
+	font-size: 2rem;
+}
+.categoria3 {
+	width: 30%;
+	height:200px;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center !important;	
+}
+.categoria3 h3{
+	text-align: center;
+	font-family: 'Lato';
+	color: white;
+	font-size: 2rem;
+}
+.categoria3 h3 p {
+	text-align: center;
+	font-family: 'Lato Hairline';
+	color: white;
+	font-size: 2rem;
+}
+
+.welcome {
+	background-image: url('../img/imagen_03.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 400px;
+}	
+.welcome h2 {
+	font-size: 2.5rem !important;
+}
+.text {
+	width: 50%;
+	height: 200px;
+	padding: 20px;	
+	flex-direction: column !important;	
+}
+.text p {
+	font-family: 'Lato';
+	font-size: 9px;
+	color: white;
+	text-align: center;
+}
+.text h5 {
+	color: white;
+	font-size: 3rem;
+	text-transform: uppercase;
+	font-family: 'Lato Hairline';
+}
+.boton2 {
+	width: 150px;
+	height: auto;
+	padding: 5px;
+	background-color: #dd5b51;
+	font-family: 'Lato';
+	text-align: center;
+	color: white;
+	text-align: center;
+	margin:20px 0px 20px 0px;	
+}
+.boton2:hover {
+	background-color: black;
+
+}
+.boxwhite{
+
+}
+.clothe {
+	width: 60%;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+.submenu {
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	border-bottom: 3px solid #D1D1D1;
+	
+}
+.new {
+	width: 50%;
+}
+.action2{
+	font-family: 'Lato';
+	font-size: 1rem;
+	padding: 0px 20px 0px 20px;
+	color: #A09D9D;
+	border-left: 3px solid #D1D1D1
+}
+.action2:hover{
+	color: #F73636;
+
+
+}
+.add {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+.shop {
+	width: 22%;
+	height: 250px;
+	background-color: #F6F6F6;
+	background-image: url('../img/imagen_06.png');
+	background-size: 95%;
+	background-repeat: no-repeat;
+	margin: 20px 30px 20px 0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-end;
+	align-content: center;
+}
+.image {
+	width: 100%;
+	background-image: url('../img/imagen_04.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 390px;
+}
+.containerhalf {
+	width: 60%;
+	height: 250px;	
+	display: flex;
+}
+.half {
+	width: 60%;
+	height: 250px;	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+.circulo {
+	width: 30%;
+	height: 250px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+.circle {
+	width: 120px;
+    height: 120px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #F73636;
+    opacity: 0.8;
+}
+.circle:hover {
+	background: #181818;
+}
+.description {
+	width: 60%;
+	padding: 20px;
+	font-family:'Lato';
+	font-size: 12px;
+}
+.blog {
+	width: 100%;
+	background-image: url('../img/imagen_07.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 698px;
+}
+.ourblog {
+	flex-direction: column !important;	
+}
+.blog p {
+	font-size: 2rem;
+	font-family:'Lato Hairline';
+	margin-bottom: 25px;
+	color: white;
+}
+.sectionblog {
+	width: 70%;
+	height:auto;
+	margin-bottom: 30px;
+}
+.foto {
+	width: 50%;		
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+
+.description2 {
+	width: 80%;
+	padding: 0px 50px 0px 50px;
+	font-family:'Lato';
+	font-size: 12px;
+	color: white;
+	text-align:center;
+}
+.description2 h3{
+	color:white;
+	text-align: center;
+	font-size: 1rem;
+}
+.description2 p {
+	font-size: 0.75rem ;
+	color: #888888;
+	text-align: center;
+	margin: 20px;
+	font-family:'Lato';
+}
+.images {
+	width: 100%;
+	background-image: url('../img/imagen_08.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 390px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+.boxblack{
+	width: 100%;
+	height: 100px;
+	background-color: #181818;
+}
+footer{
+	background-color: white;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.footer{
+	width: 70%;
+	height: 250px;	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.part1{
+	width: 60%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;	
+}
+.part2{
+	width: 35%;
+	height: 250px;
+	padding-left: 40px;
+	border-left:  1px solid #D1D1D1;
+}
+.part2 p {
+	font-size: 1rem;
+	font-family: 'Roboto';
+	font-weight: 200;
+	color: black;
+	padding: 5px 0px 5px 0px;
+
+}
+.part2 span{
+	width: 100%;
+	height: auto;
+	font-size: 0.8rem;
+	color: #777777;
+	padding-top: 10px;
+}
+.column {
+	width:30%;
+}
+.column p{
+	font-size: 1rem;
+	font-family: 'Roboto';
+	font-weight: 200;
+	color: black;
+	padding: 20px 0px 20px 0px;
+}
+.column ul {
+	width: 80% !important;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: flex-start;
+	align-content: stretch;
+}
+.column li {
+	width: 100%;
+	height: auto;
+	padding: 10px 5px 15px 5px;
+	font-size: 0.8rem;
+	border-bottom: 1px solid #D1D1D1;
+}
+.column a {
+	color: #777777;
+}
+.column a:hover {
+	color: #F73636 !important;
+}
+.column li:hover {
+	background-color: white !important;
+}
+

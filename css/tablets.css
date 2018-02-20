@@ -1,0 +1,29 @@
+	@media (min-device-width: 800px) and (max-device-width: 1280px) {
+#logo {
+	width: 60%;
+	padding-right: 0px;
+}
+
+#search {
+	width: 30%;
+	padding-left: 20px;
+}
+#sign{
+	width: 50%;
+}
+ul {
+	width: 700px;
+}
+
+
+}
+
+/* Portrait */
+@media (max-device-width: 800px) and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media (max-device-width: 1280px) and (orientation: landscape) { 
+
+}
