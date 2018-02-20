@@ -344,13 +344,111 @@ article {
 }
 .clothe {
 	width: 60%;
-	height: 400px;
+	/*height: 400px;*/
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-items: center;
 	align-content: center;
+}
+.items-container {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.item {
+	width: 23%;
+	position: relative;
+	/*border: 1px solid #ccc;*/
+	font-family: 'Lato Hairline';
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.item .add-button {
+	position: absolute;
+	top: 60%;
+	background: #c02626;
+	padding: 5%;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+	cursor: pointer;
+	width: 55%;
+	text-align: center;
+	font-size: 1rem;
+}
+.item .new, .item .sale, .item .discount {
+	position: absolute;
+	width: auto;
+	max-width: 100%;
+}
+.item .sale {
+	top: 10px;
+	left: 10px;
+	padding: 5px;
+	color: white;
+	background: #c02626;
+	font-size: 0.8rem;
+}
+.item .discount {
+	top: 40px;
+	left: 10px;
+	font-size: 1.1rem;
+	font-family: 'Lato';
+	font-weight: normal;
+}
+.item .new {
+	top: 10px;
+	right: 10px;
+	padding: 5px;
+	color: black;
+	background: #ff03031a;
+	font-size: 0.8rem;
+}
+.item .item-description {
+	padding: 10px 0;
+}
+.item .item-description .description {
+	padding: 0 0 5px 0;
+	font-weight: normal;
+	font-size: 0.6rem;
+}
+.item .item-picture figure {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.item .item-picture figure img {
+	max-width: 100%;
+	height: 100%;
+	width: 100%;
+}
+.item .img-bg {
+	content: '';
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7fbfc+0,fce3e3+60,000000+100&0+0,0.6+100 */
+	background: -moz-linear-gradient(top, rgba(247,251,252,0) 0%, rgba(252,227,227,0.36) 60%, rgba(0,0,0,0.6) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(247,251,252,0) 0%,rgba(252,227,227,0.36) 60%,rgba(0,0,0,0.6) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(247,251,252,0) 0%,rgba(252,227,227,0.36) 60%,rgba(0,0,0,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7fbfc', endColorstr='#99000000',GradientType=0 ); /* IE6-9 */
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.item .offer, .item .price {
+	display: inline-block;
+	font-family: 'Lato';
+	font-weight: normal;
+}
+.item .offer {
+	font-size: 0.8rem;
+	color: #bbb;
+	text-decoration: line-through;
 }
 .submenu {
 	width: 100%;
